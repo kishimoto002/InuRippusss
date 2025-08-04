@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="0SyokiData\**" />
+    <Compile Remove="2backImg\**" />
+    <Compile Remove="3monImg\**" />
+    <EmbeddedResource Remove="0SyokiData\**" />
+    <EmbeddedResource Remove="2backImg\**" />
+    <EmbeddedResource Remove="3monImg\**" />
+    <None Remove="0SyokiData\**" />
+    <None Remove="2backImg\**" />
+    <None Remove="3monImg\**" />
+  </ItemGroup>
+
+</Project>
